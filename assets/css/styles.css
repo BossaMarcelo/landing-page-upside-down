@@ -220,7 +220,7 @@ section {
 /**  INVERTED WORLD SECTION STYLES **/
 
 #section-inverted-world {
-    align: center;
+    align-items: center;
 }
 
 #section-inverted-world .section-texts {
