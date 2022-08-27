@@ -98,7 +98,7 @@
                         <input type="email" name="email" id="txtEmail">
 
                         <label for="txtLevel">Level</label>
-                        <input type="text" name="level" id="txtLevel">
+                        <input type="number" name="level" id="txtLevel">
 
                         <label for="txtCharacter">Personagem</label>
                         <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
@@ -120,8 +120,6 @@
         <img src="./assets/imgs/footer/logo.svg" alt="Logo DIO">
     </footer>
 
-    <script type="'module" src="assets/js/main.js"></script>
-
     <script>
         window.addEventListener('click', function () {
             const audio = document.getElementById('music');
@@ -141,6 +139,10 @@
             audio.volume = 0.2;
         }
     </script>
+    <script type="module" src="./assets/js/main.js"></script>
 </body>
+<footer id="footer" class="footer">
+    <p><a rel="nofollow" target="_blank" href="https://github.com/BossaMarcelo">Feito com <span class="heart">♥</span> por Marcelo Rodrigues</a></p>
+</footer>
 
 </html>
